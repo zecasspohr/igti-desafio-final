@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cenário 1 Buscar livro usando usuario cadastrado 1`] = `
+Array [
+  Object {
+    "autorId": 1,
+    "estoque": 25,
+    "livroId": 1,
+    "nome": "APIs em Node.js",
+    "valor": "90",
+  },
+]
+`;
+
+exports[`Cenário 1 Cadastrar venda com o cliente e livro criados 1`] = `
+Array [
+  Object {
+    "clienteId": 1,
+    "data": "2000-08-10",
+    "livroId": 1,
+    "valor": "90",
+    "vendaId": 1,
+  },
+]
+`;
+
+exports[`Cenário 1 Cria autor e verifica se foi criado corretamente 1`] = `
+Object {
+  "autorId": 1,
+  "email": "ccarolinamilenaalmada@gmail.com",
+  "nome": "Carolina Milena Almada",
+  "telefone": "83996565550",
+}
+`;
+
+exports[`Cenário 1 Cria cliente e verifica se foi criado corretamente 1`] = `
+Object {
+  "clienteId": 1,
+  "email": "giovanabetinabarbosa@gmail.com",
+  "endereco": "Rua Tancredo Neves 639, Serra-ES",
+  "nome": "Giovana Betina Barbosa",
+  "senha": "ZjRxDsNQt4",
+  "telefone": "27998835914",
+}
+`;
+
+exports[`Cenário 1 Cria livro e verifica se foi criado corretamente 1`] = `
+Object {
+  "autorId": 1,
+  "estoque": 25,
+  "livroId": 1,
+  "nome": "APIs em Node.js",
+  "valor": "90",
+}
+`;
